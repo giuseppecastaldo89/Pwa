@@ -1,11 +1,11 @@
 const CACHE_NAME = "cosplay-market-cache-v1";
 
 const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png"
+  "/Pwa",
+  "/Pwa/index.html",
+  "/Pwa/manifest.json",
+  "/Pwa/icons/icon-192.png",
+  "/Pwa/icons/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
