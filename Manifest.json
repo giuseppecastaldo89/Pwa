@@ -1,8 +1,8 @@
 {
   "name": "Cosplay Market",
   "short_name": "Cosplay",
-  "start_url": "/Pwa",
-  "scope": "/Pwa",
+  "start_url": "/Pwa/",
+  "scope": "/Pwa/",
   "display": "standalone",
   "background_color": "#0A0F2F",
   "theme_color": "#FF7A00",
