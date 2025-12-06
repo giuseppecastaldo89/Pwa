@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cosplay Market</title>
+
+    <!-- Colori PWA -->
+    <meta name="theme-color" content="#FF7A00">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icone -->
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            background: #0A0F2F;
+            color: white;
+        }
+
+        .title {
+            font-size: 2rem;
+            color: #FF7A00;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="title">Cosplay Market</h1>
+        <p>PWA minimale pronta all'uso.</p>
+    </div>
+
+    <script>
+        // Registra il service worker
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js");
+        }
+    </script>
+</body>
+</html>
