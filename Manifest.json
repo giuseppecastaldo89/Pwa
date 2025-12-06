@@ -1,0 +1,22 @@
+{
+  "name": "Cosplay Market",
+  "short_name": "Cosplay",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0F2F",
+  "theme_color": "#FF7A00",
+  "description": "Il mercato dedicato al mondo cosplay.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
